@@ -34,7 +34,7 @@ defmodule Moebius.Mixfile do
     [{:postgrex, "~> 0.13.1"},
      {:inflex, "~> 1.5.0"},
      {:poolboy,       ">= 0.0.0"},
-     {:poison, "~> 3.0.0"},
+     {:poison, "~> 3.1.0"},
      {:ex_doc, "~> 0.11.2", only: [:dev, :docs]},
      {:earmark, "~> 0.2.0", only: [:dev, :docs]},
      {:credo, "~> 0.2.5", only: [:dev, :test]}]
