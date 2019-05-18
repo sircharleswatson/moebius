@@ -31,7 +31,7 @@ defmodule Moebius.Mixfile do
   end
 
   defp deps do
-    [{:postgrex, "~> 0.13.1"},
+    [{:postgrex, "~> 0.14.3"},
      {:inflex, "~> 1.5.0"},
      {:poolboy,       ">= 0.0.0"},
      {:poison, "~> 3.1.0"},
